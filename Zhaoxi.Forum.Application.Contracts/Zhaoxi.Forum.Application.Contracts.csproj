@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="magicodes.ie.excel.abp" Version="2.6.4" />
+    <PackageReference Include="volo.abp.autofac" Version="5.3.3" />
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="5.3.3" />
+  </ItemGroup>
+
+</Project>

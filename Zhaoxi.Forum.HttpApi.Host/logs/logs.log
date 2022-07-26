@@ -1,0 +1,520 @@
+2022-07-25 17:11:05.705 +08:00 [INF] Loaded ABP modules:
+2022-07-25 17:11:05.715 +08:00 [INF] - Zhaoxi.Forum.HttpApi.Host.ForumHttpApiHostModule
+2022-07-25 17:11:05.716 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2022-07-25 17:11:05.716 +08:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-07-25 17:11:05.716 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-07-25 17:11:05.716 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-07-25 17:11:05.716 +08:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-07-25 17:11:05.716 +08:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.Json.AbpJsonModule
+2022-07-25 17:11:05.716 +08:00 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2022-07-25 17:11:05.716 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2022-07-25 17:11:05.716 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-07-25 17:11:05.716 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2022-07-25 17:11:05.716 +08:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2022-07-25 17:11:05.716 +08:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.Threading.AbpThreadingModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.Http.AbpHttpModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.Minify.AbpMinifyModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.Validation.AbpValidationModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.UI.AbpUiModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2022-07-25 17:11:05.716 +08:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2022-07-25 17:11:05.716 +08:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-07-25 17:11:05.716 +08:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-07-25 17:11:05.716 +08:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.Features.AbpFeaturesModule
+2022-07-25 17:11:05.716 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-07-25 17:11:05.716 +08:00 [INF]   - Zhaoxi.Forum.Application.ForumApplicationModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Zhaoxi.Forum.Application.Contracts.ForumApplicationContractsModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Zhaoxi.Forum.Domain.ForumDomainModule
+2022-07-25 17:11:05.716 +08:00 [INF]   - Zhaoxi.Forum.EntityFrameworkCore.ForumEntityFrameworkCoreModule
+2022-07-25 17:11:05.716 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2022-07-25 17:11:05.716 +08:00 [INF]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-07-25 17:11:06.280 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-25 17:11:06.382 +08:00 [INF] Initialized all ABP modules.
+2022-07-25 17:11:06.712 +08:00 [INF] Now listening on: https://localhost:7127
+2022-07-25 17:11:06.712 +08:00 [INF] Now listening on: http://localhost:5093
+2022-07-25 17:11:06.712 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-25 17:11:06.713 +08:00 [INF] Hosting environment: Development
+2022-07-25 17:11:06.713 +08:00 [INF] Content root path: E:\练习\ab2\Zhaoxi.Forum.HttpApi.Host\
+2022-07-25 17:11:08.385 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger - -
+2022-07-25 17:12:07.322 +08:00 [INF] Loaded ABP modules:
+2022-07-25 17:12:07.332 +08:00 [INF] - Zhaoxi.Forum.HttpApi.Host.ForumHttpApiHostModule
+2022-07-25 17:12:07.332 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2022-07-25 17:12:07.332 +08:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-07-25 17:12:07.332 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-07-25 17:12:07.332 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-07-25 17:12:07.332 +08:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-07-25 17:12:07.332 +08:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.Json.AbpJsonModule
+2022-07-25 17:12:07.332 +08:00 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2022-07-25 17:12:07.332 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2022-07-25 17:12:07.332 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-07-25 17:12:07.332 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2022-07-25 17:12:07.332 +08:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2022-07-25 17:12:07.332 +08:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.Threading.AbpThreadingModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.Http.AbpHttpModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.Minify.AbpMinifyModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.Validation.AbpValidationModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.UI.AbpUiModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2022-07-25 17:12:07.332 +08:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2022-07-25 17:12:07.332 +08:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-07-25 17:12:07.332 +08:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-07-25 17:12:07.332 +08:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.Features.AbpFeaturesModule
+2022-07-25 17:12:07.332 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-07-25 17:12:07.332 +08:00 [INF]   - Zhaoxi.Forum.Application.ForumApplicationModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Zhaoxi.Forum.Application.Contracts.ForumApplicationContractsModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Zhaoxi.Forum.Domain.ForumDomainModule
+2022-07-25 17:12:07.332 +08:00 [INF]   - Zhaoxi.Forum.EntityFrameworkCore.ForumEntityFrameworkCoreModule
+2022-07-25 17:12:07.332 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2022-07-25 17:12:07.332 +08:00 [INF]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-07-25 17:12:07.711 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-25 17:12:07.788 +08:00 [INF] Initialized all ABP modules.
+2022-07-25 17:12:08.053 +08:00 [INF] Now listening on: https://localhost:7127
+2022-07-25 17:12:08.053 +08:00 [INF] Now listening on: http://localhost:5093
+2022-07-25 17:12:08.053 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-25 17:12:08.053 +08:00 [INF] Hosting environment: Development
+2022-07-25 17:12:08.053 +08:00 [INF] Content root path: E:\练习\ab2\Zhaoxi.Forum.HttpApi.Host\
+2022-07-25 17:12:09.040 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger - -
+2022-07-25 17:12:09.269 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-07-25 17:12:09.271 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger - - - 301 0 - 231.7542ms
+2022-07-25 17:12:09.549 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/swagger-ui.css - -
+2022-07-25 17:12:09.549 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/swagger-ui-bundle.js - -
+2022-07-25 17:12:09.549 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/swagger-ui-standalone-preset.js - -
+2022-07-25 17:12:09.549 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-07-25 17:12:09.550 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 281.2229ms
+2022-07-25 17:12:09.553 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11959 application/javascript;+charset=utf-8 3.4424ms
+2022-07-25 17:12:09.580 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-07-25 17:12:09.580 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/swagger-ui.css - - - 200 143943 text/css 30.9559ms
+2022-07-25 17:12:09.632 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-07-25 17:12:09.633 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 83.5412ms
+2022-07-25 17:12:09.643 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-07-25 17:12:09.643 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/swagger-ui-bundle.js - - - 200 1096145 application/javascript 93.8960ms
+2022-07-25 17:12:09.806 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-07-25 17:12:09.830 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/favicon-32x32.png - -
+2022-07-25 17:12:09.830 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-07-25 17:12:09.830 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/favicon-32x32.png - - - 200 628 image/png 0.5327ms
+2022-07-25 17:12:09.934 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.7755ms
+2022-07-26 09:39:21.108 +08:00 [INF] Loaded ABP modules:
+2022-07-26 09:39:21.118 +08:00 [INF] - Zhaoxi.Forum.HttpApi.Host.ForumHttpApiHostModule
+2022-07-26 09:39:21.118 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2022-07-26 09:39:21.118 +08:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-07-26 09:39:21.118 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-07-26 09:39:21.118 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-07-26 09:39:21.118 +08:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-07-26 09:39:21.118 +08:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.Json.AbpJsonModule
+2022-07-26 09:39:21.118 +08:00 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2022-07-26 09:39:21.118 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2022-07-26 09:39:21.118 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-07-26 09:39:21.118 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2022-07-26 09:39:21.118 +08:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2022-07-26 09:39:21.118 +08:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.Threading.AbpThreadingModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.Http.AbpHttpModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.Minify.AbpMinifyModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.Validation.AbpValidationModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.UI.AbpUiModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2022-07-26 09:39:21.118 +08:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2022-07-26 09:39:21.118 +08:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-07-26 09:39:21.118 +08:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-07-26 09:39:21.118 +08:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.Features.AbpFeaturesModule
+2022-07-26 09:39:21.118 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-07-26 09:39:21.118 +08:00 [INF]   - Zhaoxi.Forum.Application.ForumApplicationModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Zhaoxi.Forum.Application.Contracts.ForumApplicationContractsModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Zhaoxi.Forum.Domain.ForumDomainModule
+2022-07-26 09:39:21.118 +08:00 [INF]   - Zhaoxi.Forum.EntityFrameworkCore.ForumEntityFrameworkCoreModule
+2022-07-26 09:39:21.118 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2022-07-26 09:39:21.118 +08:00 [INF]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-07-26 09:39:21.546 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-26 09:39:21.628 +08:00 [INF] Initialized all ABP modules.
+2022-07-26 09:39:21.969 +08:00 [INF] Now listening on: https://localhost:7127
+2022-07-26 09:39:21.969 +08:00 [INF] Now listening on: http://localhost:5093
+2022-07-26 09:39:21.969 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-26 09:39:21.969 +08:00 [INF] Hosting environment: Development
+2022-07-26 09:39:21.969 +08:00 [INF] Content root path: E:\练习\ab2\Zhaoxi.Forum.HttpApi.Host\
+2022-07-26 09:39:23.012 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-07-26 09:39:23.407 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/swagger-ui-standalone-preset.js - -
+2022-07-26 09:39:23.407 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/swagger-ui-bundle.js - -
+2022-07-26 09:39:23.407 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-07-26 09:39:23.407 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/swagger-ui.css - -
+2022-07-26 09:39:23.411 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 399.2205ms
+2022-07-26 09:39:23.417 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11959 application/javascript;+charset=utf-8 7.3054ms
+2022-07-26 09:39:23.433 +08:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2022-07-26 09:39:23.433 +08:00 [INF] The file /swagger-ui.css was not modified
+2022-07-26 09:39:23.433 +08:00 [INF] The file /swagger-ui-bundle.js was not modified
+2022-07-26 09:39:23.434 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 27.0586ms
+2022-07-26 09:39:23.434 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 27.0585ms
+2022-07-26 09:39:23.434 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/swagger-ui.css - - - 304 - text/css 26.7819ms
+2022-07-26 09:39:23.674 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-07-26 09:39:23.847 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.5499ms
+2022-07-26 10:06:55.411 +08:00 [INF] Loaded ABP modules:
+2022-07-26 10:06:55.420 +08:00 [INF] - Zhaoxi.Forum.HttpApi.Host.ForumHttpApiHostModule
+2022-07-26 10:06:55.421 +08:00 [INF]   - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.Auditing.AbpAuditingModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2022-07-26 10:06:55.421 +08:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2022-07-26 10:06:55.421 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2022-07-26 10:06:55.421 +08:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2022-07-26 10:06:55.421 +08:00 [INF]           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2022-07-26 10:06:55.421 +08:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.Json.AbpJsonModule
+2022-07-26 10:06:55.421 +08:00 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2022-07-26 10:06:55.421 +08:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2022-07-26 10:06:55.421 +08:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2022-07-26 10:06:55.421 +08:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2022-07-26 10:06:55.421 +08:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2022-07-26 10:06:55.421 +08:00 [INF]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.Threading.AbpThreadingModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.Http.AbpHttpModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.Minify.AbpMinifyModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.Authorization.AbpAuthorizationModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.Validation.AbpValidationModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.UI.AbpUiModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2022-07-26 10:06:55.421 +08:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2022-07-26 10:06:55.421 +08:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2022-07-26 10:06:55.421 +08:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2022-07-26 10:06:55.421 +08:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.Features.AbpFeaturesModule
+2022-07-26 10:06:55.421 +08:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2022-07-26 10:06:55.421 +08:00 [INF]   - Zhaoxi.Forum.Application.ForumApplicationModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Zhaoxi.Forum.Application.Contracts.ForumApplicationContractsModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Zhaoxi.Forum.Domain.ForumDomainModule
+2022-07-26 10:06:55.421 +08:00 [INF]   - Zhaoxi.Forum.EntityFrameworkCore.ForumEntityFrameworkCoreModule
+2022-07-26 10:06:55.421 +08:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2022-07-26 10:06:55.421 +08:00 [INF]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2022-07-26 10:06:55.901 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-26 10:06:55.988 +08:00 [INF] Initialized all ABP modules.
+2022-07-26 10:06:56.244 +08:00 [INF] Now listening on: https://localhost:7127
+2022-07-26 10:06:56.244 +08:00 [INF] Now listening on: http://localhost:5093
+2022-07-26 10:06:56.244 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-26 10:06:56.244 +08:00 [INF] Hosting environment: Development
+2022-07-26 10:06:56.244 +08:00 [INF] Content root path: E:\练习\ab2\Zhaoxi.Forum.HttpApi.Host\
+2022-07-26 10:06:57.802 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-07-26 10:06:58.210 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-07-26 10:06:58.215 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 413.6344ms
+2022-07-26 10:06:58.215 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11959 application/javascript;+charset=utf-8 4.4853ms
+2022-07-26 10:06:58.492 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-07-26 10:06:58.696 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 204.4710ms
+2022-07-26 10:07:09.953 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7127/api/app/category/any - 0
+2022-07-26 10:07:09.957 +08:00 [INF] CORS policy execution successful.
+2022-07-26 10:07:09.991 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:07:10.025 +08:00 [INF] Route matched with {action = "Any", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] AnyAsync() on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:07:10.036 +08:00 [ERR] The required antiforgery cookie ".AspNetCore.Antiforgery.AdVZDhUKUz4" is not present.
+2022-07-26 10:07:10.037 +08:00 [INF] Authorization failed for the request at filter 'Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+2022-07-26 10:07:10.041 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2022-07-26 10:07:10.045 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application) in 15.9072ms
+2022-07-26 10:07:10.045 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:07:10.046 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7127/api/app/category/any - 0 - 400 0 - 92.4671ms
+2022-07-26 10:08:44.166 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/api/app/category - -
+2022-07-26 10:08:44.172 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetListAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:08:44.174 +08:00 [INF] Route matched with {action = "GetList", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.ListResultDto`1[Zhaoxi.Forum.Application.Contracts.CategoryDto]] GetListAsync() on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:08:53.680 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.ListResultDto`1[[Zhaoxi.Forum.Application.Contracts.CategoryDto, Zhaoxi.Forum.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-07-26 10:08:53.694 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.GetListAsync (Zhaoxi.Forum.Application) in 9519.5695ms
+2022-07-26 10:08:53.694 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetListAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:08:53.694 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/api/app/category - - - 200 - application/json;+charset=utf-8 9528.1680ms
+2022-07-26 10:09:11.634 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/api/app/category - -
+2022-07-26 10:09:11.638 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetListAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:09:11.638 +08:00 [INF] Route matched with {action = "GetList", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.ListResultDto`1[Zhaoxi.Forum.Application.Contracts.CategoryDto]] GetListAsync() on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:09:32.411 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.ListResultDto`1[[Zhaoxi.Forum.Application.Contracts.CategoryDto, Zhaoxi.Forum.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-07-26 10:09:32.412 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.GetListAsync (Zhaoxi.Forum.Application) in 20773.9854ms
+2022-07-26 10:09:32.412 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetListAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:09:32.412 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/api/app/category - - - 200 - application/json;+charset=utf-8 20778.2149ms
+2022-07-26 10:09:41.049 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7127/api/app/category/any - 0
+2022-07-26 10:09:41.049 +08:00 [INF] CORS policy execution successful.
+2022-07-26 10:09:41.050 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:09:41.050 +08:00 [INF] Route matched with {action = "Any", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] AnyAsync() on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:09:41.051 +08:00 [ERR] The required antiforgery cookie ".AspNetCore.Antiforgery.AdVZDhUKUz4" is not present.
+2022-07-26 10:09:41.051 +08:00 [INF] Authorization failed for the request at filter 'Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+2022-07-26 10:09:41.051 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2022-07-26 10:09:41.051 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application) in 0.8021ms
+2022-07-26 10:09:41.051 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:09:41.051 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7127/api/app/category/any - 0 - 400 0 - 2.6024ms
+2022-07-26 10:09:42.485 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7127/api/app/category/any - 0
+2022-07-26 10:09:42.485 +08:00 [INF] CORS policy execution successful.
+2022-07-26 10:09:42.485 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:09:42.485 +08:00 [INF] Route matched with {action = "Any", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] AnyAsync() on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:09:42.485 +08:00 [ERR] The required antiforgery cookie ".AspNetCore.Antiforgery.AdVZDhUKUz4" is not present.
+2022-07-26 10:09:42.486 +08:00 [INF] Authorization failed for the request at filter 'Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+2022-07-26 10:09:42.486 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2022-07-26 10:09:42.486 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application) in 0.578ms
+2022-07-26 10:09:42.486 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:09:42.486 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7127/api/app/category/any - 0 - 400 0 - 1.2519ms
+2022-07-26 10:09:55.352 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7127/api/app/category/any - 0
+2022-07-26 10:09:55.353 +08:00 [INF] CORS policy execution successful.
+2022-07-26 10:09:55.353 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:09:55.353 +08:00 [INF] Route matched with {action = "Any", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] AnyAsync() on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:09:55.353 +08:00 [ERR] The required antiforgery cookie ".AspNetCore.Antiforgery.AdVZDhUKUz4" is not present.
+2022-07-26 10:09:55.353 +08:00 [INF] Authorization failed for the request at filter 'Volo.Abp.AspNetCore.Mvc.AntiForgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+2022-07-26 10:09:55.353 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2022-07-26 10:09:55.353 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application) in 0.5096ms
+2022-07-26 10:09:55.353 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.AnyAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:09:55.354 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7127/api/app/category/any - 0 - 400 0 - 1.2081ms
+2022-07-26 10:10:35.094 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/api/app/category - -
+2022-07-26 10:10:35.102 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetListAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:10:35.102 +08:00 [INF] Route matched with {action = "GetList", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.ListResultDto`1[Zhaoxi.Forum.Application.Contracts.CategoryDto]] GetListAsync() on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:10:47.692 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.ListResultDto`1[[Zhaoxi.Forum.Application.Contracts.CategoryDto, Zhaoxi.Forum.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-07-26 10:10:47.692 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.GetListAsync (Zhaoxi.Forum.Application) in 12590.6114ms
+2022-07-26 10:10:47.692 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetListAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:10:47.693 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/api/app/category - - - 200 - application/json;+charset=utf-8 12598.1370ms
+2022-07-26 10:10:47.726 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/favicon.ico - -
+2022-07-26 10:10:47.726 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/favicon.ico - - - 404 0 - 0.4305ms
+2022-07-26 10:10:58.319 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/api/app/category/any - -
+2022-07-26 10:10:58.325 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:10:58.336 +08:00 [INF] Route matched with {action = "Get", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Zhaoxi.Forum.Application.Contracts.CategoryDto] GetAsync(Int64) on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:10:58.383 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "你的请求无效!",
+  "details": "验证时发现以下错误.\r\n - The value 'any' is not valid.\r\n",
+  "data": {},
+  "validationErrors": [
+    {
+      "message": "The value 'any' is not valid.",
+      "members": [
+        "id"
+      ]
+    }
+  ]
+}
+
+2022-07-26 10:10:58.384 +08:00 [WRN] ModelState is not valid! See ValidationErrors for details.
+Volo.Abp.Validation.AbpValidationException: ModelState is not valid! See ValidationErrors for details.
+   at Volo.Abp.AspNetCore.Mvc.Validation.ModelStateValidator.Validate(ModelStateDictionary modelState)
+   at Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-07-26 10:10:58.385 +08:00 [WRN] There are 1 validation errors:
+The value 'any' is not valid. (id)
+
+2022-07-26 10:10:58.391 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2022-07-26 10:10:58.402 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application) in 65.6416ms
+2022-07-26 10:10:58.402 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:10:58.402 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/api/app/category/any - - - 400 - application/json;+charset=utf-8 83.5689ms
+2022-07-26 10:11:20.940 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/api/app/category/AnyAsync - -
+2022-07-26 10:11:20.948 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:20.948 +08:00 [INF] Route matched with {action = "Get", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Zhaoxi.Forum.Application.Contracts.CategoryDto] GetAsync(Int64) on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:11:20.950 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "你的请求无效!",
+  "details": "验证时发现以下错误.\r\n - The value 'AnyAsync' is not valid.\r\n",
+  "data": {},
+  "validationErrors": [
+    {
+      "message": "The value 'AnyAsync' is not valid.",
+      "members": [
+        "id"
+      ]
+    }
+  ]
+}
+
+2022-07-26 10:11:20.950 +08:00 [WRN] ModelState is not valid! See ValidationErrors for details.
+Volo.Abp.Validation.AbpValidationException: ModelState is not valid! See ValidationErrors for details.
+   at Volo.Abp.AspNetCore.Mvc.Validation.ModelStateValidator.Validate(ModelStateDictionary modelState)
+   at Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-07-26 10:11:20.950 +08:00 [WRN] There are 1 validation errors:
+The value 'AnyAsync' is not valid. (id)
+
+2022-07-26 10:11:20.950 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2022-07-26 10:11:20.951 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application) in 2.6539ms
+2022-07-26 10:11:20.951 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:20.951 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/api/app/category/AnyAsync - - - 400 - application/json;+charset=utf-8 10.6686ms
+2022-07-26 10:11:22.604 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/api/app/category/AnyAsync - -
+2022-07-26 10:11:22.605 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:22.606 +08:00 [INF] Route matched with {action = "Get", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Zhaoxi.Forum.Application.Contracts.CategoryDto] GetAsync(Int64) on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:11:22.607 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "你的请求无效!",
+  "details": "验证时发现以下错误.\r\n - The value 'AnyAsync' is not valid.\r\n",
+  "data": {},
+  "validationErrors": [
+    {
+      "message": "The value 'AnyAsync' is not valid.",
+      "members": [
+        "id"
+      ]
+    }
+  ]
+}
+
+2022-07-26 10:11:22.607 +08:00 [WRN] ModelState is not valid! See ValidationErrors for details.
+Volo.Abp.Validation.AbpValidationException: ModelState is not valid! See ValidationErrors for details.
+   at Volo.Abp.AspNetCore.Mvc.Validation.ModelStateValidator.Validate(ModelStateDictionary modelState)
+   at Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-07-26 10:11:22.607 +08:00 [WRN] There are 1 validation errors:
+The value 'AnyAsync' is not valid. (id)
+
+2022-07-26 10:11:22.607 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2022-07-26 10:11:22.607 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application) in 1.9166ms
+2022-07-26 10:11:22.608 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:22.608 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/api/app/category/AnyAsync - - - 400 - application/json;+charset=utf-8 3.2388ms
+2022-07-26 10:11:34.118 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/api/app/category/1 - -
+2022-07-26 10:11:34.119 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:34.119 +08:00 [INF] Route matched with {action = "Get", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Zhaoxi.Forum.Application.Contracts.CategoryDto] GetAsync(Int64) on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:11:34.669 +08:00 [ERR] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "实体 CategoryEntity 不存在,id = 1!",
+  "details": null,
+  "data": null,
+  "validationErrors": null
+}
+
+2022-07-26 10:11:34.669 +08:00 [ERR] There is no such an entity. Entity type: Zhaoxi.Forum.Domain.Category.CategoryEntity, id: 1
+Volo.Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: Zhaoxi.Forum.Domain.Category.CategoryEntity, id: 1
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`3.GetAsync(TKey id, Boolean includeDetails, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Zhaoxi.Forum.Application.CategoryAppService.GetAsync(Int64 id) in E:\练习\ab2\Zhaoxi.Forum.Application\CategoryAppService.cs:line 41
+   at lambda_method1030(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-07-26 10:11:34.670 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2022-07-26 10:11:34.670 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application) in 550.4337ms
+2022-07-26 10:11:34.670 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:34.670 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/api/app/category/1 - - - 404 - application/json;+charset=utf-8 551.8774ms
+2022-07-26 10:11:44.215 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/api/app/category/10000 - -
+2022-07-26 10:11:44.216 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:44.216 +08:00 [INF] Route matched with {action = "Get", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Zhaoxi.Forum.Application.Contracts.CategoryDto] GetAsync(Int64) on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:11:45.212 +08:00 [INF] Executing ObjectResult, writing value of type 'Zhaoxi.Forum.Application.Contracts.CategoryDto'.
+2022-07-26 10:11:45.213 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application) in 996.1377ms
+2022-07-26 10:11:45.213 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:45.213 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/api/app/category/10000 - - - 200 - application/json;+charset=utf-8 997.7484ms
+2022-07-26 10:11:58.060 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7127/api/app/category/AnyAsync - -
+2022-07-26 10:11:58.061 +08:00 [INF] Executing endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:58.061 +08:00 [INF] Route matched with {action = "Get", controller = "Category", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Zhaoxi.Forum.Application.Contracts.CategoryDto] GetAsync(Int64) on controller Zhaoxi.Forum.Application.CategoryAppService (Zhaoxi.Forum.Application).
+2022-07-26 10:11:58.063 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "你的请求无效!",
+  "details": "验证时发现以下错误.\r\n - The value 'AnyAsync' is not valid.\r\n",
+  "data": {},
+  "validationErrors": [
+    {
+      "message": "The value 'AnyAsync' is not valid.",
+      "members": [
+        "id"
+      ]
+    }
+  ]
+}
+
+2022-07-26 10:11:58.063 +08:00 [WRN] ModelState is not valid! See ValidationErrors for details.
+Volo.Abp.Validation.AbpValidationException: ModelState is not valid! See ValidationErrors for details.
+   at Volo.Abp.AspNetCore.Mvc.Validation.ModelStateValidator.Validate(ModelStateDictionary modelState)
+   at Volo.Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2022-07-26 10:11:58.063 +08:00 [WRN] There are 1 validation errors:
+The value 'AnyAsync' is not valid. (id)
+
+2022-07-26 10:11:58.063 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2022-07-26 10:11:58.063 +08:00 [INF] Executed action Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application) in 1.9761ms
+2022-07-26 10:11:58.063 +08:00 [INF] Executed endpoint 'Zhaoxi.Forum.Application.CategoryAppService.GetAsync (Zhaoxi.Forum.Application)'
+2022-07-26 10:11:58.064 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7127/api/app/category/AnyAsync - - - 400 - application/json;+charset=utf-8 4.1872ms
