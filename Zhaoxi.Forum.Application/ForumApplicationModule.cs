@@ -2,6 +2,8 @@
 using Volo.Abp.AutoMapper;
 using Volo.Abp.Modularity;
 using Zhaoxi.Forum.Application.Contracts;
+using Zhaoxi.Forum.Application.Contracts.Auth;
+using Zhaoxi.Forum.Application.Validator;
 using Zhaoxi.Forum.Domain;
 
 namespace Zhaoxi.Forum.Application;
@@ -23,5 +25,9 @@ public class ForumApplicationModule:AbpModule
         {
             config.AddProfile<ForumApplicationAutoMapperProfile>();
         });
+
+        // jwtAppService
+        services.AddScoped<IJwtAppService, JwtAppService>();
+        services.AddTransient<LoginInputValidator>();
     }
 }

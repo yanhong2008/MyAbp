@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Application.Dtos;
 using Volo.Abp.Application.Services;
-using Zhaoxi.Forum.Application.Contracts;
+using Zhaoxi.Forum.Application.Contracts.Topic;
 using Zhaoxi.Forum.Domain.Category;
 using Zhaoxi.Forum.Domain.Topic;
 

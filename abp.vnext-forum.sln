@@ -20,6 +20,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhaoxi.Forum.DbMigrator", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhaoxi.Forum.HttpApi.Host", "Zhaoxi.Forum.HttpApi.Host\Zhaoxi.Forum.HttpApi.Host.csproj", "{D3876685-231F-43E8-B120-03A9C654F8DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoxi.Forum.Domain.Shared", "Zhaoxi.Forum.Domain.Shared\Zhaoxi.Forum.Domain.Shared.csproj", "{D40D8666-9FF5-4350-9AE6-B1BE4DAB6AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{D3876685-231F-43E8-B120-03A9C654F8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3876685-231F-43E8-B120-03A9C654F8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3876685-231F-43E8-B120-03A9C654F8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40D8666-9FF5-4350-9AE6-B1BE4DAB6AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40D8666-9FF5-4350-9AE6-B1BE4DAB6AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40D8666-9FF5-4350-9AE6-B1BE4DAB6AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40D8666-9FF5-4350-9AE6-B1BE4DAB6AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

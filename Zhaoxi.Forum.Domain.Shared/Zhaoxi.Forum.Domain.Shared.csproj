@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="5.3.3" />
-    <PackageReference Include="Volo.Abp.Studio.Domain.CommonServices" Version="5.3.3" />
+    <PackageReference Include="Microsoft.aspnetcore.http.abstractions" Version="2.2.0" />
   </ItemGroup>
 
 </Project>

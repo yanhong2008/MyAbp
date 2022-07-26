@@ -3,6 +3,7 @@ using Volo.Abp.EntityFrameworkCore;
 using Zhaoxi.Forum.Domain;
 using Zhaoxi.Forum.Domain.Category;
 using Zhaoxi.Forum.Domain.Topic;
+using Zhaoxi.Forum.Domain.User;
 using Zhaoxi.Forum.EntityFrameworkCore.ModelConfigurations;
 
 namespace Zhaoxi.Forum.EntityFrameworkCore;
@@ -26,4 +27,6 @@ public class ForumDbContext : AbpDbContext<ForumDbContext>
     public DbSet<CategoryEntity> Categories { get; set; }
 
     public DbSet<TopicEntity> Topic { get; set; }
+
+    public DbSet<UserEntity> User { get; set; }
 }
